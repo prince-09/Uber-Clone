@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/driver_emailtext"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Email"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="112dp" />
+
+    <EditText
+        android:id="@+id/driver_passwordtext"
+        android:layout_width="300dp"
+        android:layout_below="@+id/driver_emailtext"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="password"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="206dp" />
+
+    <Button
+        android:id="@+id/register_btn"
+        android:layout_below="@+id/driver_passwordtext"
+        android:layout_marginTop="20dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Register"
+        android:textSize="15dp"
+        tools:layout_editor_absoluteX="113dp"
+        tools:layout_editor_absoluteY="296dp" />
+</RelativeLayout>

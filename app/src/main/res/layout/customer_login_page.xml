@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/emailtext"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="E mail ID"
+        tools:layout_editor_absoluteX="65dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        tools:layout_editor_absoluteY="129dp" />
+
+    <EditText
+        android:id="@+id/passworrdtext"
+        android:layout_width="300dp"
+        android:layout_below="@+id/emailtext"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="313dp" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="300dp"
+        android:layout_below="@+id/passworrdtext"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        android:text="login"
+        tools:layout_editor_absoluteX="124dp"
+        tools:layout_editor_absoluteY="589dp" />
+</RelativeLayout>
